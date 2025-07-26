@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.coursesCard {
+    height: fit-content;
+    width: 100%;
+    background-color: salmon;
+    padding: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    height: 350px;
+    width: 250px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.image {
+    height: 60%;
+    width: 100%;
+    background-color: rgb(44, 161, 44);
+    border-radius: 10px;
+}
+
+.discription {
+    height: 40%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.courseHeading {
+    font-size: 25px;
+}

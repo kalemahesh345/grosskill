@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cards">
+        <div class="card">
+        <div class="image"></div>
+        <h1 class="courseName">Graphic Design</h1>
+        <p class="price">Rs.12000</p>
+        <p class="dates">
+          <span class="sdate">10/03/2025</span><br>
+          <span class="edate">10/06/2025</span>
+        </p>
+      </div>  
+    </div>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .cards{
+        /* background-color: aqua; */
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .card {
+        height: 250px;
+        width: 200px;
+        background-color: beige;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.427);
+        overflow: hidden;
+        gap: 50px;
+       
+        
+      }
+
+      .card h1 {
+        font-size: 20px;
+      }
+
+      .image {
+        height: 50%;
+        width: 100%;
+        background-color: blanchedalmond;
+      }
+    </style>
+
+    <script src="index.js"></script>
+  </body>
+</html>

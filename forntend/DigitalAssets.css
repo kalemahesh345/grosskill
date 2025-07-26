@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Sora",sans-serif;
+}
+
+
+  
+.Explores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+     padding-top: 100px; 
+    padding-bottom:100px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+.icon{
+    font-size: 25px;
+}
+.icon2{
+    font-size: 25px;
+}
+.iconhome{
+    /* background-color: aqua; */
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+
+}
+.on{
+     width: 100%;
+    display: flex;
+    justify-content: center;
+     /* background-color: aqua;  */
+    text-align: center;
+}
+.Courses{
+    text-align: end;
+    color:#22c55e;
+    font-size: 60px;
+    margin-left: 7px;
+}
+.Design{
+    width: 90%;
+    height: fit-content;
+   padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    /* gap: 20px;  */
+    flex-wrap: wrap;
+     /* background-color: aqua; */
+
+}
+.all{
+    font-size: 16px;
+    width: fit-content;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid white;
+    /* padding: 15px; */
+}
+.all:hover{
+    background-color: #22c55e;
+    color: #232323;
+    
+}
+.all1{
+    width: 28%;
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.all2{
+   
+    font-size: 16px;
+    width: fit-content;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 15px; 
+}
+
+
+.allcard{
+    height: fit-content;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 10px;
+    padding: 50px 0px 50px 50px;
+    
+}
+.cards21{
+     height: fit-content;
+    width: 250px;
+    background-color:white;
+   /* display: flex;
+   flex-direction: column;
+   display: flex;
+   align-items: center; */ 
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* padding-bottom: 30px; */
+
+   box-shadow: 0 0 15px 2px rgb(0 0 0 / 10%);
+   
+}
+.imgcard{
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+}
+.Dis{
+    /* background-color: rgb(172, 229, 229); */
+    width: 250px;
+    height: fit-content;
+}
+.name{
+    font-size: 17px;
+}
+.Dis{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0px 10px 0px;
+}
